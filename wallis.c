@@ -33,3 +33,4 @@ float wallis_pi(int x)
  	}
  	pi= 2*p;
  	return pi;
+ }
