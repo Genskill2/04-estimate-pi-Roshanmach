@@ -29,7 +29,7 @@ float wallis_pi(int x)
  	float pd=1;
  	for(int i=1; i<=x; i++)
   {
- 	float num = (4.0*i*i)/((4.0*i*i)-1);
+ 	float num = (4.0*i*i)/((4.0*i*i)-1.0);
  	pd= pd*num;
  	}
  	pi= 2*pd;
